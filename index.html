@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karthick Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="home">
+        <h1 id="home-title">Home</h1>
+        <section class="home">
+            <div class="mobile-home-image">
+                <p id="frame"></p>
+                <img src="images/karthick.png" alt="karthick photo" id="main-photo">
+            </div>
+            <div class="home-text">
+                <h2>Hi! my name is <span>Karthick K</span></h2>
+                <div class="justify">
+                    <h3>Java FullStack Developer</h3>
+                    <p>Passionate JAVA FullStack Developer with strong skills in J2EE, MySQL, HTML, CSS, JS. Seeking a job opportunity to showcase my Skills.</p>
+                </div>
+                <div class="home-button">
+                    <a href="https://krfile2linkbotv1-93c57a839e50.herokuapp.com/dl/13712?hash=AgADiw" target="_blank" id="btn">Download &nbsp;CV</a>
+                    <a href="mailto:karthickk.jdev@gmail.com" target="_blank" id="btn">Hire Me &nbsp;Now</a>
+                </div>
+                <div class="scroll">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="home-image">
+                <p id="frame"></p>
+                <img src="images/karthick.png" alt="karthick photo" id="main-photo">
+            </div>
+        </section>
+    </section>
+    <section id="about">
+        <h1 id="about-title">About Me</h1>
+        <section class="about">
+            <div class="profile">
+                <div class="profile-background">
+                    <img src="images/karthick.png" alt="profile picture" id="profile-pic">
+                    <h3>Karthick K</h3>
+                    <p id="line">_______</p>
+                    <p id="about-subtitle">Java FullStack Developer</p>
+
+                    <div class="social-icon">
+                        <a href="https://www.linkedin.com/in/karthickk-jdev/"><img src="images/linkedin.png"
+                                alt="LinkedIn-profile"></a>
+                        <a href="https://www.w3profile.com/KarthickK"><img src="images/w3logo.png" alt="W3Schools-profile"
+                                id="w3"></a>
+                        <a href="https://www.guvi.in/kkarthick8131737418"><img src="images/guvi.png" alt="instagram-profile"
+                                id="guvi"></a>
+                        <a href="https://wa.me/8190096055/"><img src="images/whatsapp.png" alt="WhatsApp-profile"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <p>Currently i have strong knowledge in both Front End and Back End Technologies
+				with familiar to handle.In java, i have good understanding the concepts of data structures, multi threading and Servlet Concepts.
+				Good to Write SQL Queries to communicates with Database. I can create responsive website using Bootstrap and JavaScript. 
+				</p>
+				<div class="about-btn-background">
+                    <div class="about-button">
+                        <a href="#about" id="switch1" onclick="leftClick()">Bio</a>
+                        <a href="#about" id="switch2" onclick="rightClick()">Education</a>
+                    </div>
+                </div>
+                <div class="bio-content" id="bio-content">
+                    <ul>
+                        <li><b>EMail</b> : karthickk.jdev@gmail.com</li>
+                        <li><b>Mobile</b> : +918190096055</li>
+                        <li><b>Birthday</b> : 13 September 2001</li>
+                        <li><b>City</b> : Chennai</li>
+                    </ul>
+                </div>
+                <div class="edu-content" id="edu-content">
+                    <ul>
+                        <li><span><img src="images/calendar-line.svg" alt="calendar"
+                                    id="calendar"><b>2018-2022</b></span><br>B.E.,
+                            MECHANICAL ENGINEERING | PERCENTAGE : 81%</li>
+                        <li><span><img src="images/calendar-line.svg" alt="calendar"
+                                    id="calendar"><b>2016-2018</b></span><br>HSC |
+                            PERCENTAGE : 85%</li>
+                        <li><span><img src="images/calendar-line.svg" alt="calendar"
+                                    id="calendar"><b>2014-2016</b></span><br>SSLC
+                            | PERCENTAGE : 95%</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+    
+<section class="mobile-bio-edu"> 
+    <div class="mabout-btn-background">
+        <div class="about-button">
+            <a href="#about" id="switch1" onclick="mleftClick()">Bio</a>
+            <a href="#about" id="switch2" onclick="mrightClick()">Education</a>
+        </div>
+    </div>
+    <div class="mbio-content" id="mbio-content">
+        <ul>
+            <li><b>EMail</b> : karthickk.jdev@gmail.com</li>
+            <li><b>Mobile</b> : +918190096055</li>
+            <li><b>Birthday</b> : 13 September 2001</li>
+            <li><b>City</b> : Chennai</li>
+        </ul>
+    </div>
+    <div class="medu-content" id="medu-content">
+        <ul>
+            <li><span><img src="images/calendar-line.svg" alt="calendar"
+                        id="calendar"><b>2018-2022</b></span><br>B.E.,
+                MECHANICAL ENGINEERING | PERCENTAGE : 81%</li>
+            <li><span><img src="images/calendar-line.svg" alt="calendar"
+                        id="calendar"><b>2016-2018</b></span><br>HSC |
+                PERCENTAGE : 85%</li>
+            <li><span><img src="images/calendar-line.svg" alt="calendar"
+                        id="calendar"><b>2014-2016</b></span><br>SSLC
+                | PERCENTAGE : 95%</li>
+        </ul>
+    </div>
+</section>
+<section id="skills">
+    <h1 id="skills-title">Skills</h1>
+    <section class="skills">
+        <div class="end frontend">
+            <h3 id="end-title">FrontEnd</h3>
+            <ul>
+                <li><abbr title="HyperText Markup Language ">HTML</abbr></li>
+                <li><abbr title="Cascading Style Sheets">CSS</abbr></li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
+                <li>Angular</li>
+            </ul>
+        </div>
+        <div class="end backend">
+            <h3 id="end-title">BackEnd</h3>
+            <ul>
+                <li>JAVA</li>
+                <li>Spring Boot</li>
+            </ul>
+        </div>
+    </section>
+</section>
+    <section id="projects">
+        <h1 id="projects-title"></h1>
+        <section class="projects">
+        </section>
+    </section>
+    <section id="contact">
+        <h1 id="contact-title">contact me</h1>
+        <section class="contact">
+            <div class="contact-content">
+                <p>I will read all mails. Send me any message you want and I'll get back to you.</p>
+                <img src="images/mail-send-fill.svg" id="contact-icon"><span>karthickk.jdev@gmail.com</span>
+                <br>
+                <img src="images/phone-fill.svg" id="contact-icon"><span>+918190096055</span>
+                <div class="contact-social-icon">
+                    <a href="https://www.linkedin.com/in/karthickk-jdev/"><img src="images/linkedin-box-fill.svg"
+                        alt="LinkedIn-profile"></a>
+                    <a href="https://www.facebook.com/profile"><img src="images/facebook-box-fill.svg"
+                            alt="Facebook-profile"></a>
+                    <a href="https://www.instagram.com/karthickk_jdev"><img src="images/instagram-fill.svg"
+                            alt="Instagram-profile"></a>
+                    <a href="https://wa.me/8190096055/"><img src="images/whatsapp-fill.svg" alt="WhatsApp-profile"></a>
+                </div>
+            </div>
+
+            <form action="" class="form" id="contact-form">
+                <div class="row">
+                    <div class="form-group">
+                        <input type="text" name="first_name" required id="firstname" />
+                        <div class="underline"></div>
+                        <label for="firstname">First Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="last_name" required id="lastname" />
+                        <div class="underline"></div>
+                        <label for="lastname">Last Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <input type="email" name="user_mail" required id="email" />
+                        <div class="underline"></div>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="user_contact" required minlength="10" maxlength="12" id="contact" />
+                        <div class="underline"></div>
+                        <label for="contact">Contact No</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group textarea">
+                        <textarea name="user_msg" required id="message"></textarea>
+                        <div class="underline message"></div>
+                        <label for="message">Write your message</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group">
+                        <input type="submit" value="Send Message">
+                    </div>
+                </div>
+                <p class="contact--msg" id="contact-msg"></p>
+            </form>
+        </section>
+    </section>
+    <footer>
+        <hr>
+        <p>Copyrights &copy; 2023 by <span id="heart">&nbsp;&#x2764;</span></p>
+    </footer>
+    <div class="scroll-button">
+        <span>
+            <box-icon name='chevrons-up' id="scroll-icon"></box-icon>
+        </span>
+    </div>
+    <header id="header">
+        <nav>
+            <div class="logo">
+                <div class="border"></div>
+                <a href="index.html" class="namelogo">Karthick</a>
+            </div>
+            <ul class="menulist">
+                <li><a href="#home" class="active" id="navbar">Home</a></li>
+                <li><a href="#about" id="navbar">About</a></li>
+                <li><a href="#skills" id="navbar">Skills</a></li>
+                <li><a href="https://www.canva.com/design/DAF3NBbfTGE/8MGocyVZfuvWONvAskxN2g/view?utm_content=DAF3NBbfTGE&utm_campaign=designshare&utm_medium=link&utm_source=editor" id="navbar">MyResume</a></li>
+                <li><a href="#contact" id="navbar">Contact</a></li>
+                <img src="images/moon-line.svg" alt="day-night-mode-icon" id="mode">
+                <img src="images/menu-fill.svg" alt="Menubar" id="menu-threebar">
+                <img src="images/close-line.svg" alt="Menubar" id="menu-cancel">
+            </ul>
+        </nav>
+        <ul id="mobilelist">
+            <li><a href="#home" class="active" id="mob-home">Home</a></li>
+            <li><a href="#about" id="mob-about">About</a></li>
+            <li><a href="#skills" id="mob-skills">Skills</a></li>
+            <li><a href="https://www.canva.com/design/DAF3NBbfTGE/8MGocyVZfuvWONvAskxN2g/view?utm_content=DAF3NBbfTGE&utm_campaign=designshare&utm_medium=link&utm_source=editor" id="mob-projects">MyResume</a></li>
+            <li><a href="#contact" id="mob-contact">Contact</a></li>
+        </ul>
+    </header>
+    <script src="JavaScript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+</html>
